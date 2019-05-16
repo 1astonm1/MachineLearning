@@ -4,8 +4,12 @@ import pandas as pd
 
 class UserCf:
 
+
+
     def __init__(self):
-        self.file_path = 'data/ratings.csv'
+        dataset_1m = 'E:\Download\dataset\ml-1m\ml-1m/ratings.csv'
+        dataset_20m = 'E:\Download\dataset\ml-20m\ml-20m/ratings.csv'
+        self.file_path = dataset_20m
         self._init_frame()
 
     def _init_frame(self):
@@ -66,7 +70,7 @@ class UserCf:
         interest_list = sorted(interest_list, key=lambda x: x[1], reverse=True)
         return interest_list[:top_n]
 
-    def calculate(self, target_user_id=1, top_n=10):
+    def calculate(self, target_user_id=5, top_n=50):
         """
         user-cf for movies recommendation.
         """
