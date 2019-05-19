@@ -4,7 +4,6 @@ from RecommendSystem.cf.CollaborativeFiltering import UserCf
 
 
 def run():
-    print("hahaha")
     dataset_1m = 'E:\Download\dataset\ml-1m/ratings.csv'
     dataset_20m = 'E:\Download\dataset\ml-20m\ml-20m/ratings.csv'
     assert os.path.exists(dataset_1m), \
