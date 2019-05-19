@@ -4,8 +4,6 @@ import pandas as pd
 
 class UserCf:
 
-
-
     def __init__(self):
         dataset_1m = 'E:\Download\dataset\ml-1m/ratings.csv'
         dataset_20m = 'E:\Download\dataset\ml-20m\ml-20m/ratings.csv'
