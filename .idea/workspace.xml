@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b28710d-f001-4489-bb53-ada10389edca" name="Default Changelist" comment="" />
+    <list default="true" id="4b28710d-f001-4489-bb53-ada10389edca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/RecommendSystem/cf/CollaborativeFiltering.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecommendSystem/cf/CollaborativeFiltering.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RecommendSystem/cf/CollaborativeFiltering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+            <state relative-caret-position="224">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -275,12 +277,12 @@
       <workItem from="1557970368150" duration="10860000" />
       <workItem from="1558251705465" duration="35000" />
       <workItem from="1558251777915" duration="152000" />
-      <workItem from="1558252144432" duration="309000" />
+      <workItem from="1558252144432" duration="496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19505000" />
+    <option name="totallyTimeSpent" value="19692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -370,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RecommendSystem/cf/CollaborativeFiltering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+        <state relative-caret-position="224">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

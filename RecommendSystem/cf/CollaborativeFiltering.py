@@ -70,6 +70,7 @@ class UserCf:
         interest_list = sorted(interest_list, key=lambda x: x[1], reverse=True)
         return interest_list[:top_n]
 
+
     def calculate(self, target_user_id=5, top_n=50):
         """
         user-cf for movies recommendation.
