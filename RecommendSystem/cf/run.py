@@ -4,9 +4,9 @@ from RecommendSystem.cf.CollaborativeFiltering import UserCf
 
 
 def run():
-    dataset_1m = 'E:\Download\dataset\ml-1m\ml-1m/ratings.csv'
+    dataset_1m = 'E:\Download\dataset\ml-1m/ratings.csv'
     dataset_20m = 'E:\Download\dataset\ml-20m\ml-20m/ratings.csv'
-    assert os.path.exists(dataset_20m), \
+    assert os.path.exists(dataset_1m), \
         'File not exists in path, run preprocess.py before this.'
     print('Start..')
     start = time.time()
