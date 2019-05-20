@@ -7,9 +7,9 @@ class UserCf:
 
 
     def __init__(self):
-        dataset_1m = 'E:\Download\dataset\ml-1m/ratings.csv'
-        dataset_20m = 'E:\Download\dataset\ml-20m\ml-20m/ratings.csv'
-        self.file_path = dataset_1m
+        dataset_1m = 'F:\Download\dataset\ml-1m/ratings.csv'
+        dataset_20m = 'F:\Download\dataset\ml-20m/ratings.csv'
+        self.file_path = dataset_20m
         self._init_frame()
 
     def _init_frame(self):
@@ -70,7 +70,7 @@ class UserCf:
         interest_list = sorted(interest_list, key=lambda x: x[1], reverse=True)
         return interest_list[:top_n]
 
-    def calculate(self, target_user_id=5, top_n=50):
+    def calculate(self, target_user_id, top_n):
         """
         user-cf for movies recommendation.
         """
