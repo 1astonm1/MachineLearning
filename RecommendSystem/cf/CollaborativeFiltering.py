@@ -9,7 +9,7 @@ class UserCf:
     def __init__(self):
         dataset_1m = 'F:\Download\dataset\ml-1m/ratings.csv'
         dataset_20m = 'F:\Download\dataset\ml-20m/ratings.csv'
-        self.file_path = dataset_20m
+        self.file_path = dataset_1m
         self._init_frame()
 
     def _init_frame(self):

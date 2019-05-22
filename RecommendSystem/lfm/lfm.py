@@ -7,12 +7,12 @@ from math import exp
 
 
 class Corpus:
-
-    items_dict_path = 'data/lfm_items.dict'
+    items_dict_path = 'F:\Download\dataset/lfm_items.dict'
 
     @classmethod
     def pre_process(cls):
-        file_path = 'data/ratings.csv'
+        dataset_1m = 'F:\Download\dataset\ml-1m/ratings.csv'
+        file_path = dataset_1m
         cls.frame = pd.read_csv(file_path)
         cls.user_ids = set(cls.frame['UserID'].values)
         cls.item_ids = set(cls.frame['MovieID'].values)
@@ -65,7 +65,8 @@ class LFM:
         """
         Get corpus and initialize model params.
         """
-        file_path = 'data/ratings.csv'
+        dataset_1m = 'F:\Download\dataset\ml-1m/ratings.csv'
+        file_path =dataset_1m
         self.frame = pd.read_csv(file_path)
         self.user_ids = set(self.frame['UserID'].values)
         self.item_ids = set(self.frame['MovieID'].values)
