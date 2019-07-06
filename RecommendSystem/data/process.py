@@ -7,7 +7,7 @@ class Channel:
     """
 
     def __init__(self):
-        self.origin_path = 'E:\Download\dataset\ml-1m\{}'
+        self.origin_path = 'F:\Download\dataset\MovieLens\ml-1m\{}'
 
     def process(self):
         print('Process user data...')
